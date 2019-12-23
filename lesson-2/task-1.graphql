@@ -1,0 +1,4 @@
+query {
+    size: totalPets
+    customers: totalCustomers
+}

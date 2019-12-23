@@ -1,0 +1,10 @@
+query($firstID: ID!, $secondID: ID!) {
+    first: petById(id: $firstID) {
+        id
+        name
+    }
+    second: petById(id: $secondID) {
+        id
+        name
+    }
+}

@@ -1,0 +1,9 @@
+query {
+    customers: customersWithPets {
+        name
+        pets: currentPets {
+            type: __typename
+            name
+        }
+    }
+}
